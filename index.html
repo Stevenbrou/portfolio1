@@ -4,80 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
     <!--barre de navigation-->
-    <nav>
-
-             <img src="image/images.png" alt="Logo">
+    <nav class="navbar">
+        <div class="logo">
+             <img src="image/logo.png" alt="Logo">
+             <h1>Mon Portfolio</h1>
+        </div>
         <div>
-           <ul>
+           <ul class="menu">
                 <li>
-                <a href="#Domicile">Domicile</a>
+            <a class="menu-item"  href="#Domicile">Domicile</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-            <a href="#apropos">A PROPOS</a>
+            <a class="menu-item" href="#apropos">Apropos</a>
                 </li>
-            </ul>
-                   <ul>
                 <li>
-            <a href="#travail">Les travaux achevés</a>
+            <a class="menu-item" href="#travail">Mes travaux</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-               <a href="#Cv">cv</a>
+            <a class="menu-item" href="#Cv">Mon parcour</a>
                 </li>
-            </ul>
-            <ul>
                 <li>
-                <a href="#contact">contact</a>
+            <a class="menu-item" href="#contact">Contact</a>
                  </li>
             </ul>      
         </div>
        
     </nav>
     <!--section hero-->
-<section>
+<section class="hero">
     <div>
-        <h1>MON PORTFOLIO</h1>
+        <h1>les sites web de qualite</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laudantium facere labore sapiente excepturi quod?</p>
     </div>
     <img src="image/hero.jpg" alt="">
 </section>
 
 <!--section à propos-->
-<section id="apropos">
-    <h2>a propos de MOI</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui totam sapiente placeat tempora? Natus, fuga.</p>
+<section class="about" id="apropos">
+    <h2>A Propos de nous</h2>
+ <div >
+    <div class="apropos">
+        <img src="image/apropos1.jpg" alt="">
+        <h3>complate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+     
+        
+     <div class="apropos">
+        <img src="image/apropo2.avif" alt="">
+        <h3>complate2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+       
+    <div class="apropos">
+        <img src="image/apropos3.jpg" alt="">
+        <h3>complate3</h3>
+        <p>Lorem ipsum dolor sit amet </p>
+   </div>
+</div>
+  
 </section>
 
 <!--section travail-->
-<section id="travail">
-    <h2>les travaux achevés</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, cum?</p>
+<section class="word" id="travail">
+    <h2>Mes travaux</h2>
+   <div>
+
+    <div class="realisation">
+        <img src="image/realisation.jpg" alt="">
+        <h3>Perso</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+
+    <div class="realisation">
+        <img src="image/realistion1.jpg" alt="">
+        <h3>Perso1</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+
+    <div class="realisation">
+        <img src="image/realisation2.jpg" alt="">
+        <h3>Perso2</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+
+    <div class="realisation">
+        <img src="image/realistion3.png" alt="">
+        <h3>Perso3</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div> 
+
+   </div>
 </section>
 
 <!--section cv-->
-<section id="Cv">
+<section class="cv" id="Cv">
     <h2>Mon parcour</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum!</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum!</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum!</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum!</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum!</p>
+    <div>
+        <div class="parcour">
+            <img src="image/parcour1.png" alt="">
+            <h3>Formation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+        </div>
+
+        <div class="parcour">
+            <img src="image/parcour2.jpg" alt="">
+            <h3>Experience</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+        </div>
+
+        <div class="parcour">
+            <img src="image/parcour3.jpg" alt="">
+            <h3>Competence</h3>
+            <p>Lorem Lorem ipsum dolor sit amet consectetu ipsum dolor sit amett. Doloribus.</p>
+        </div>
+           
+
+    </div>
+  
 </section>
 
 <!--contact-->
-<section id="contact">
-  <div>
-   <h2>prendre rendez-vous ici</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, magnam.</p>
-</div>
-    <audio src="video/evan.mp4">Ma creation</audio>
+<section class="contact" id="contact">
+    <h1>contactez nous</h1>
+<div class="contact">
+    <img src="image/contact.webp" alt="">
+   <h2>contacte</h2>
+    <p><strong>Telephone:</strong> <a href="+225 0759103242">+225 0759103242</a></p>
+    <p><strong>Adress:</strong><a href=""></a>Guiro paleraie bp53</p>
+    <p><strong>Email:</strong><a href="mailto:bbeuny01@gmail.com">bbeuny01@gmail.com</a></p>
+ </div>    
 </section>
+
+<form action="" class="formulaire" id="Domicile">
+    <H2>LE FORMULAIRE</H2>
+    <div>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+    </div>
+    <div>
+        <label for="Prenom">Prenom:</label><br>
+        <input type="text" id="Prenom" name="Prenom" placeholder="Entrez votre Prenom" required>
+    <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+    </div>
+    <div>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Entrez votre message" cols="30" rows="5" required></textarea>
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+</form>
+
  <!-- Pied de page -->
   <footer>
     <p>&copy; 2025 Mon Portfolio | suivez moi sur les reseaux</p>

@@ -1,0 +1,194 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #d2e6e4;
+    
+}
+
+/*--barre de navigation--*/
+
+.navbar {
+    background-color: #2dd7d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+/*--logo--*/
+.logo {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #d8732b;
+   
+   
+}
+/*--logo image--*/
+.logo img {
+    width: 5rem;
+    margin-right: 0.5rem;
+
+
+    
+  
+}
+/*--menu--*/
+.menu {
+    display: flex;
+    gap: 0.5rem;
+    justify-self:right;
+    list-style: none;
+    font-size: 1.2rem;
+   
+}
+
+/*--menu item--*/
+.menu-item {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*--section hero--*/
+.hero {
+    margin:30px 100px 30px 100px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    
+    
+    
+    
+}
+/*--hero image--*/
+.hero img {
+    width: 45rem;
+    border-radius: 30px;
+   ;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #2dd7d4;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #d8732b;
+    margin-top: 1rem;
+}
+
+/*--section travail--*/
+.apropos {
+   width: 20rem;
+   height: 20rem;
+    display: flex;
+   align-items: right;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+    background-color: #2dd7aa;
+    border-radius: 12px;
+   
+}
+
+/*--realisation image--*/
+.realisation {
+    width: 17rem;
+    height: 17rem;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 30px 100px 30px 100px;
+    background-color: #2dd7d4;
+    padding: 1rem;
+    border-radius: 10px;
+   
+}
+
+/*-- parcours--*/
+.parcour {
+    width: 13rem;
+    height: 15rem;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 30px 100px 30px 100px;
+    background-color: #bdd5ed;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.contact {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 14px;
+    }
+
+/*--contact--*/
+.formulaire {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+    background-color: #2dd7d4;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/*--section à propos--*/
+.about {
+    margin: 30px 100px 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+   
+
+
+
+
